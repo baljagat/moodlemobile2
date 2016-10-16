@@ -6,6 +6,30 @@
 
 // Colors.
 $positive: #387ef5;
+/* Un-comment the following, for initial RTL UI support.
+body {
+   direction: rtl; 
+   text-align: right;
+}
+*/
+ 
+ .bar-side-menu {
+   background-color: blue;
+ }
+ 
+ .bar-content {
+   background-color: blue;
+ }
+ 
+ .button.button-positive {
+   border-color: blue;
+   background-color: blue;
+    color: #fff;
+ } 
+ 
+ .item-divider {
+   background-color: #fafafa;
+ }
 
 // Setting the default button to button-outline.
 $button-default-bg: transparent;
